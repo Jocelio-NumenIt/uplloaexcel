@@ -36,7 +36,95 @@ Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a part
 Arquivo disponível no link:
 
 Resultado:
-Upload Excel 1 - Watch Video
+
+
+![upload excel 1](https://github.com/user-attachments/assets/ff3a922e-a40c-4a4f-9c4a-43e8bc64337a)
+
+
+Upload Excel com UI5 Custom Spreadsheet Upload
+
+Este, atualmente, é o mais documentado e simples de utilzar. Tem seus prós e contras, mas atende bem.
+A documentação está disponível em: https://docs.spreadsheet-importer.com/pages/GettingStarted/
+
+Lá você vai encontrar um passo a passo completo para aplicar em diversas plataformas, seja no BTP ou OnPremise.
+
+Basicamente teremos, da mesma forma que no anterior, que extender e criar um custom button - pelo Grided Development, copiar e coloar um arquivo ListReport.controller.js (acho mais fácil copiar e colar) e depois ajustar alguns trechos no manifest.
+
+Utilize como parâmetro para o cenário odata v2, este exemplo disponibilizado em https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter/tree/main/examples/packages/ordersv2fe
+
+Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretendido. Normalmente não se altera muita coisa a não ser que tenha que converter algum tipo de dado...
+
+Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: npm install ui5-cc-spreadsheetimporter --save-dev
+
+Este trechos do manifest:
+
+...
+      "mainService": {
+        "uri": "/sap/opu/odata/sap/ZUI_SD_CARBONIZA_P_O2/",
+        "type": "OData",
+        "settings": {
+          "annotations": [
+            "ZUI_SD_CARBONIZA_P_O2_VAN",
+            "annotation"
+          ],
+          "localUri": "localService/mainService/metadata.xml",
+          "odataVersion": "2.0"
+        }
+      }
+    },
+    "embeds": [
+      "thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
+    ]
+  },
+  "sap.ui": {
+    "technology": "UI5",
+
+...
+
+...
+   "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+            "controllerName": "br.numen.paramcarbonizacao.ext.controller.ListReportExt",
+            "sap.ui.generic.app": {
+              "ZUI_SD_CARBONIZA_P": {
+                "EntitySet": "CarbonizacaoParam",
+                "Actions": {
+                  "spreadsheetUploadButton": {
+                    "id": "spreadsheetUploadButtonButton",
+                    "text": "Upload Excel",
+                    "press": "openSpreadsheetUpload",
+                    "requiresSelection": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "resourceRoots": {
+      "cc.spreadsheetimporter.v2_1_0": "./thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
+    },
+    "componentUsages": {
+      "spreadsheetImporter": {
+        "name": "cc.spreadsheetimporter.v2_1_0"
+      }
+    }
+  },
+  "sap.ui.generic.app": {
+    "_version": "1.3.0",
+    "settings": {
+      "forceGlobalRefresh": false,
+      "objectPageHeaderType": "Dynamic",
+      "considerAnalyticalParameters": true,
+      "showDraftToggle": false
+    },
+
+...
+
+
 
 
 
