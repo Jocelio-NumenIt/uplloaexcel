@@ -124,6 +124,14 @@ Este trechos do manifest:
 
 ...
 
+Importante: Ao fazer deploy mais de uma vez ele vai dar erro pois está levando o mesmo ID do componente e isso não é possível... uma alterativa que achei foi alterar o nome dentro da pasta node_modules -> ui5-cc-spreadsheetimporter
+no manifest, alterar algo no ID. no meu caso coloquei um _1 a mais.
+
+![image](https://github.com/user-attachments/assets/93b07e54-ea3d-4b8f-8c8e-929d582b57a3)
+
+
+
+
 
 
 
