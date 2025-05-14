@@ -36,5 +36,7 @@ Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a part
 Arquivo disponível no link:
 
 Resultado:
-https://www.loom.com/share/620f1eda92b04e3b894297b35ea35ee7?sid=dfd5f492-cf07-4aa6-ab41-085f2e4d6ad2
+Upload Excel 1 - Watch Video
+
+
 
