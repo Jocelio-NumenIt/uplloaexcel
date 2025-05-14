@@ -33,5 +33,8 @@ Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a part
 
 ![image](https://github.com/user-attachments/assets/8f90ecd2-24ac-4817-b14c-521d12eb067e)
 
-arquivo: 
+Arquivo disponível no link:
+
+Resultado:
+https://www.loom.com/share/620f1eda92b04e3b894297b35ea35ee7?sid=dfd5f492-cf07-4aa6-ab41-085f2e4d6ad2
 
