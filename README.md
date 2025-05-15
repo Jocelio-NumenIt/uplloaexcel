@@ -135,6 +135,14 @@ no manifest, alterar algo no ID. no meu caso coloquei um _1 a mais.
 Resultado:
 ![cc-spreadsheet](https://github.com/user-attachments/assets/3004f01f-9165-49e0-b599-f3b2e124811f)
 
+Esta útima opção que trago é totalmente clean core, feito com RAP e Fiori elements.
+
+Siga o passo a passo no link: https://software-heroes.com/en/blog/abap-rap-report-pattern-en
+
+Mais uma vez, obrigado aos colegas do Heroes.
+
+
+
 
 
 
