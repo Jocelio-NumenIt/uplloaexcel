@@ -142,6 +142,8 @@ Siga o passo a passo no link: https://software-heroes.com/en/blog/abap-rap-repor
 Mais uma vez, obrigado aos colegas do Heroes.
 
 
+ele é indcado para quando, de dentro de um app onde você tem uma object page com várias childrens (tabelas), você faz o upload na object page principal e então com os dados do Excel, as filhas são preenchidas, evitando retrabalho de digitar.
+
 
 
 
