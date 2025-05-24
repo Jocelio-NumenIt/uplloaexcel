@@ -6,7 +6,7 @@ Neste tutorial, pretendo listar meus favoritos, não limitando-os a utilizar out
 
 O primeiro, para mim, foi o primeiro, usando RAP + custom action UI5 - XLXS.js
 
-Módulo XLSX
+## Módulo XLSX
 
 Este, reconhecidamente funciona. Já uso há vários anos em alguns dos apps que desenvolvi. Como está diponível a mais tempo, tenho mais base para falar bastante dele, e recomendar.
 
@@ -135,6 +135,7 @@ no manifest, alterar algo no ID. no meu caso coloquei um _1 a mais.
 Resultado:
 ![cc-spreadsheet](https://github.com/user-attachments/assets/3004f01f-9165-49e0-b599-f3b2e124811f)
 
+## RAP + MimeType
 Esta útima opção que trago é totalmente clean core, feito com RAP e Fiori elements.
 
 Siga o passo a passo no link: https://software-heroes.com/en/blog/abap-rap-report-pattern-en
@@ -146,6 +147,7 @@ ele é indcado para quando, de dentro de um app onde você tem uma object page c
 
 
 
+![mimeType](https://github.com/user-attachments/assets/bce7c7af-8f99-4b01-b36f-63ee317ac811)
 
 
 
