@@ -59,7 +59,7 @@ Este trechos do manifest:
 ```
 ...
       "mainService": {
-        "uri": "/sap/opu/odata/sap/ZUI_SD_CARBONIZA_P_O2/",
+        "uri": "/sap/opu/odata/sap/ZUI_SD_CARTONIZA_P_O2/",
         "type": "OData",
         "settings": {
           "annotations": [
@@ -88,7 +88,7 @@ Este trechos do manifest:
             "controllerName": "br.numen.paramcarbonizacao.ext.controller.ListReportExt",
             "sap.ui.generic.app": {
               "ZUI_SD_CARBONIZA_P": {
-                "EntitySet": "CarbonizacaoParam",
+                "EntitySet": "CartonizacaoParam",
                 "Actions": {
                   "spreadsheetUploadButton": {
                     "id": "spreadsheetUploadButtonButton",
@@ -135,19 +135,22 @@ no manifest, alterar algo no ID. no meu caso coloquei um _1 a mais.
 Resultado:
 ![cc-spreadsheet](https://github.com/user-attachments/assets/3004f01f-9165-49e0-b599-f3b2e124811f)
 
-## RAP + MimeType
-Esta útima opção que trago é totalmente clean core, feito com RAP e Fiori elements.
+## RAP + Upload file Stream
+
+Esta útima opção que trago é totalmente Clean Core, feito com RAP e Fiori elements.
 
 Siga o passo a passo no link: https://software-heroes.com/en/blog/abap-rap-report-pattern-en
 
 Mais uma vez, obrigado aos colegas do Heroes.
+https://software-heroes.com/en/blog/abap-rap-upload-of-files-stream
 
-
-ele é indcado para quando, de dentro de um app onde você tem uma object page com várias childrens (tabelas), você faz o upload na object page principal e então com os dados do Excel, as filhas são preenchidas, evitando retrabalho de digitar.
-
+Ele é indcado para quando, de dentro de um app onde você tem uma object page com várias childrens (tabelas), você faz o upload na object page principal e então com os dados do Excel, as filhas são preenchidas, evitando retrabalho de digitar.
 
 
 ![mimeType](https://github.com/user-attachments/assets/bce7c7af-8f99-4b01-b36f-63ee317ac811)
+
+Neste mesmo repositório disponibilizo as três opções, com exemplos dos objetos ABAP e o os arquivos do APP.
+
 
 
 
