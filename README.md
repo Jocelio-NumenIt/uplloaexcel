@@ -57,7 +57,7 @@ Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretend
 Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: npm install ui5-cc-spreadsheetimporter --save-dev
 
 Este trechos do manifest:
-
+'''
 ...
       "mainService": {
         "uri": "/sap/opu/odata/sap/ZUI_SD_CARBONIZA_P_O2/",
@@ -123,7 +123,7 @@ Este trechos do manifest:
     },
 
 ...
-
+'''
 Importante: Ao fazer deploy mais de uma vez ele vai dar erro:
 Duplicate Id: Id cc.spreadsheetimporter.v2_1_0 already contained in SAPUI5 Repository ZUI5_CAD_RESTRI
 AP Note: See SAP Note 2177717 for more details (https://launchpad.support.sap.com/#/notes/2177717
