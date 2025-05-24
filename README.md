@@ -1,5 +1,4 @@
-# uplloaexcel
-Upload Excel em massa
+# Upload Excel em massa
 
 Não apenas uma, mas três dicas para implementar chamada de arquivo do Excel para cadastro ou edição em massa em um App desenvolvido em RAP - oData, no OnPremise.
 Neste tutorial, pretendo listar meus favoritos, não limitando-os a utilizar outras implementações que estão disponíveis e muita gente utiliza. 
@@ -125,7 +124,7 @@ Este trechos do manifest:
 ...
 ```
 
-Importante: Ao fazer deploy mais de uma vez ele vai dar erro:
+[!TIP] Importante: Ao fazer deploy mais de uma vez ele vai dar erro:
 Duplicate Id: Id cc.spreadsheetimporter.v2_1_0 already contained in SAPUI5 Repository ZUI5_CAD_RESTRI
 AP Note: See SAP Note 2177717 for more details (https://launchpad.support.sap.com/#/notes/2177717
 pois está levando o mesmo ID do componente e isso não é possível... Ele indica a nota https://me.sap.com/notes/2177717, inviável. uma alterativa que achei foi alterar o nome dentro da pasta node_modules -> ui5-cc-spreadsheetimporter
