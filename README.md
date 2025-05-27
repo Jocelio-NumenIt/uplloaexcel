@@ -58,6 +58,7 @@ Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o m�
 Este trechos do manifest:
 
 ...
+```
       "mainService": {
         "uri": "/sap/opu/odata/sap/ZUI_SD_CARTONIZA_P_O2/",
         "type": "OData",
@@ -71,11 +72,11 @@ Este trechos do manifest:
         }
       }
     },
-    ```
+
     "embeds": [
       "thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
     ]
-    ```
+
   },
   "sap.ui": {
     "technology": "UI5",
@@ -114,7 +115,7 @@ Este trechos do manifest:
       }
     }
   },
-  ```
+
   "sap.ui.generic.app": {
     "_version": "1.3.0",
     "settings": {
