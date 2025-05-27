@@ -42,7 +42,7 @@ Resultado:
 
 Upload Excel com UI5 Custom Spreadsheet Upload
 
-Este, atualmente, é o mais documentado e simples de utilzar. Tem seus prós e contras, mas atende bem.
+Este atualmente é o mais documentado e simples de utilzar. Tem seus prós e contras, mas atende bem.
 A documentação está disponível em: https://docs.spreadsheet-importer.com/pages/GettingStarted/
 
 Lá você vai encontrar um passo a passo completo para aplicar em diversas plataformas, seja no BTP ou OnPremise.
@@ -53,7 +53,7 @@ Utilize como parâmetro para o cenário odata v2, este exemplo disponibilizado e
 
 Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretendido. Normalmente não se altera muita coisa a não ser que tenha que converter algum tipo de dado...
 
-Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: npm install ui5-cc-spreadsheetimporter --save-dev
+Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: ** npm install ui5-cc-spreadsheetimporter **
 
 Este trechos do manifest:
 ```
