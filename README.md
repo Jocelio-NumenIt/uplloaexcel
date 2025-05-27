@@ -56,7 +56,7 @@ Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretend
 Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: **npm install ui5-cc-spreadsheetimporter**
 
 Este trechos do manifest:
-```
+
 ...
       "mainService": {
         "uri": "/sap/opu/odata/sap/ZUI_SD_CARTONIZA_P_O2/",
@@ -71,23 +71,24 @@ Este trechos do manifest:
         }
       }
     },
+    ```
     "embeds": [
       "thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
     ]
+    ```
   },
   "sap.ui": {
     "technology": "UI5",
 
-...
 
 ...
    "extends": {
       "extensions": {
         "sap.ui.controllerExtensions": {
           "sap.suite.ui.generic.template.ListReport.view.ListReport": {
-            "controllerName": "br.numen.paramcarbonizacao.ext.controller.ListReportExt",
+            "controllerName": "br.paramcartonizacao.ext.controller.ListReportExt",
             "sap.ui.generic.app": {
-              "ZUI_SD_CARBONIZA_P": {
+              "ZUI_SD_CARTONIZA_P": {
                 "EntitySet": "CartonizacaoParam",
                 "Actions": {
                   "spreadsheetUploadButton": {
@@ -103,6 +104,7 @@ Este trechos do manifest:
         }
       }
     },
+    ```
     "resourceRoots": {
       "cc.spreadsheetimporter.v2_1_0": "./thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
     },
@@ -112,6 +114,7 @@ Este trechos do manifest:
       }
     }
   },
+  ```
   "sap.ui.generic.app": {
     "_version": "1.3.0",
     "settings": {
@@ -122,7 +125,7 @@ Este trechos do manifest:
     },
 
 ...
-```
+
 
 [!TIP] Importante: Ao fazer deploy mais de uma vez ele vai dar erro:
 Duplicate Id: Id cc.spreadsheetimporter.v2_1_0 already contained in SAPUI5 Repository ZUI5_CAD_RESTRI
