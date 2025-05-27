@@ -105,7 +105,7 @@ Este trechos do manifest:
         }
       }
     },
-    ```
+
     "resourceRoots": {
       "cc.spreadsheetimporter.v2_1_0": "./thirdparty/customcontrol/spreadsheetimporter/v2_1_0"
     },
@@ -124,7 +124,7 @@ Este trechos do manifest:
       "considerAnalyticalParameters": true,
       "showDraftToggle": false
     },
-
+```
 ...
 
 
