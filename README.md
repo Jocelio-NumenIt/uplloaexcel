@@ -26,7 +26,7 @@ Ao final da parte 2, já temos como abrir o diálogo do upload excel através do
 ![image](https://github.com/user-attachments/assets/8e02a705-4bee-48cf-9a21-0ec2f1cab71a)
 
 
-O passo três fala de como instalar o módulo e cofigurar para subir junto no deploy. 
+O passo três fala de como instalar o módulo e configurar para subir junto no deploy. 
 
 Dica: Pode utilizar o XLSX.js dentro da pasta ext, com isso você elimina a parte de precisar configurar os arquivos .yaml.
 
