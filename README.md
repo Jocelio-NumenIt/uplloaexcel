@@ -132,7 +132,7 @@ Este trechos do manifest:
 Duplicate Id: Id cc.spreadsheetimporter.v2_1_0 already contained in SAPUI5 Repository ZUI5_CAD_RESTRI
 AP Note: See SAP Note 2177717 for more details (https://launchpad.support.sap.com/#/notes/2177717
 pois está levando o mesmo ID do componente e isso não é possível... Ele indica a nota https://me.sap.com/notes/2177717, inviável. uma alterativa que achei foi alterar o nome dentro da pasta node_modules -> ui5-cc-spreadsheetimporter
-no manifest, alterar algo no ID. no meu caso coloquei um _1 a mais.
+no manifest, alterar algo no ID. no meu caso coloquei um _1 ou até o id do app (mesmo do manifest do app).
 
 ![image](https://github.com/user-attachments/assets/93b07e54-ea3d-4b8f-8c8e-929d582b57a3)
 
