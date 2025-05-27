@@ -53,7 +53,7 @@ Utilize como parâmetro para o cenário odata v2, este exemplo disponibilizado e
 
 Copie os arquivos da pasta ext, e altere onde necessitar para o cenário pretendido. Normalmente não se altera muita coisa a não ser que tenha que converter algum tipo de dado...
 
-Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: ** npm install ui5-cc-spreadsheetimporter **
+Alguns detalhes: para fazer o deploy corretamente não esqueça de instalar o módulo: **npm install ui5-cc-spreadsheetimporter**
 
 Este trechos do manifest:
 ```
